@@ -50,7 +50,9 @@ public class CascadeEngine {
                 }
             });
             // 1) очистить
-            for (var p : mr.union()) field.set(p, null);
+            for (var p : mr.union()) {
+                if (!keep.contains(p)) field.set(p, null);
+            }
 
             // 2) обвалить вниз по каждому столбцу
             collapseDown(field);
