@@ -4,4 +4,4 @@
 Для запуска программы необходимо склонировать репозиторий, в консоли перейти в директорию с проектом и выполнить команды:
 
 mvn clean package
-java -jar target/game-0.0.1-SNAPSHOT.jar
+java -jar target/ThreeInARow-0.0.1-SNAPSHOT-all.jar
