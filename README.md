@@ -5,3 +5,4 @@
 В консоли перейти в директорию с проектом и выполнить команды (для PowerShell):
 
 mvn -q clean package; java -jar target\ThreeInARow-0.0.1-SNAPSHOT-all.jar
+![Uploading Снимок экрана 2025-09-29 150340.png…]()
