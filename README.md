@@ -6,4 +6,4 @@
 
 mvn -q clean package; java -jar target\ThreeInARow-0.0.1-SNAPSHOT-all.jar
 
-![Скриншот игры](./[image.png](https://github.com/Saxophilyman/ThreeInARow/blob/master/image.jpg))
+![Скриншот игры](image.jpg)
